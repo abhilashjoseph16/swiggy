@@ -1,0 +1,54 @@
+@media only screen and (min-width:300px) {
+    .header{
+        /* background-color: red; */
+        height: 160px;
+    }
+    .swiggy-logo-box{
+        display: flex;
+        align-items: center;
+        width: 180px;
+        height: 68px;
+        /* background-color: green; */
+    }
+    .swiggy-logo{
+        padding: 0px 0px 6px 14px;
+        height: 41px;
+        width: 132px;
+    }
+
+    .vertical-line{
+        margin: -5px 0px 0px 10%;
+        width: 400px;
+        height: 1px;
+        background-color: #e9dedee6;
+    }
+    
+    .location-box{
+        display: flex;
+        align-items: center;
+        height: 48px;
+        width: 100%;
+        /* background-color: blue; */
+    }
+    .location-logo{
+        padding: 0px 4px 7px 13px;
+        height: 16px;
+        width: 16px;
+    }
+    .location-bar{
+        padding: 0px 0px 7px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(2, 6, 12, 0.75);
+    }
+    .arrow-right{
+        border: solid #FF5200;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+}
