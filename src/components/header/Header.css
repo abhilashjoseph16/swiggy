@@ -51,4 +51,19 @@
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
     }
+
+    .search-box{
+        position: relative;
+        display: inline-block;
+        height: 47px;
+        width: 100%;
+        background-color: lightblue;
+    }
+    .search-bar{
+        margin: 0px 0px 0px 4%;
+        border-radius: 10px;
+        border-color: rgba(255, 255, 255, 0);
+        height: 40px;
+        width: 91%;
+    }
 }

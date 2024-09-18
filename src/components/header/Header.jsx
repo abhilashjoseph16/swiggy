@@ -19,6 +19,11 @@ const Header = () => {
                 Setup your precise location<i className="arrow-right"></i>
             </div>
         </div>
+
+        <div className="search-box">
+              <input type="text" className="search-bar" value="Search for restaurant and food"></input>
+        </div>
+
     </div>
   )
 }
