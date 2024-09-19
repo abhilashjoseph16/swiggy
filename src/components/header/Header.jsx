@@ -1,5 +1,7 @@
 import "../header/Header.css"
 import swiggyLogo from "../../assets/swiggy-logo.png"
+import searchLogo from "../../assets/magnifying-glass.png"
+import profileLogo from "../../assets/profile-logo.png";
 
 const Header = () => {
   return (
@@ -21,7 +23,12 @@ const Header = () => {
         </div>
 
         <div className="search-box">
-              <input type="text" className="search-bar" value="Search for restaurant and food"></input>
+              <input type="text" className="search-bar" placeholder="Search for restaurant and food"></input>
+              <img className="search-logo" src={searchLogo} alt="Search"/>
+        </div>
+
+        <div className="profile-box">
+          <img className="profile-logo" src={profileLogo} alt="profile"/>
         </div>
 
     </div>
