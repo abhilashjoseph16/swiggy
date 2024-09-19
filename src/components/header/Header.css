@@ -1,4 +1,4 @@
-@media only screen and (min-width:300px) {
+@media (min-width:320px) {
     .header{
         /* background-color: red; */
         position: relative;
@@ -17,11 +17,22 @@
         width: 132px;
     }
 
-    .vertical-line{
-        margin: -5px 0px 0px 7%;
-        width: 430px;
+    .vertical-line-box{
+        display: none;
+    }
+
+    .horizonal-line-box{
+        position: relative;
+        width: 80%;
         height: 1px;
         background-color: #e9dedee6;
+        margin: auto;
+    }
+
+    .horizonal-line{
+        position: absolute;
+        left: auto;
+        right: auto;
     }
     
     .location-box{
@@ -57,7 +68,6 @@
         position: relative;
         height: 47px;
         width: 100%;
-        /* background-color: lightblue; */
     }
     .search-bar{
         margin: 2px 0px 0px 3%;
@@ -86,7 +96,7 @@
     .search-logo{
         position: absolute;
         top: 6px;
-        right: 28px;
+        right: 6%;
         height: 30px;
         width: 30px;
     }
@@ -106,5 +116,219 @@
     .profile-logo{
         height: 69px;
         width:69px;
+    }
+}
+
+@media (min-width:961px){
+    .header{
+        position: relative;
+        display: flex;
+        height: 80px;
+    }
+
+    .swiggy-loc-box{
+        position: absolute;
+        /* background-color: cyan; */
+        height: 80px;
+        width: 50%;
+        left: 10%;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiggy-logo-box{
+        position: relative;
+        align-items: center;
+        padding-right: 13px;
+    }
+
+    .horizonal-line-box{
+        display: none;
+    }
+
+    .vertical-line-box{
+        display: block;
+        position: absolute;
+        /* top: 26px; */
+        /* left: 85%; */
+        left: 154px;
+        width: 1px;
+        height: 26px;
+        background-color: #e9dedee6;
+    }
+
+    .search-box{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 7px;
+        right: 3%;
+        height: 70px;
+        width: 40%;
+    }
+    .search-bar{
+        margin: 2px 0px 0px 3%;
+        border-radius: 8px;
+        border: none;
+        background-color: #F6F6F6;
+        border-color: #F6F6F6;
+        height: 54px;
+        width: 92%;
+        cursor: pointer;
+    }
+
+    .search-bar::placeholder{
+        color: #85878C;
+        font-family: Gilroy;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        overflow: hidden;
+        width: 100%;
+        overflow-wrap: break-word;
+        padding-left: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .search-logo{
+        position: absolute;
+        top: 20px;
+        right: 6%;
+        height: 30px;
+        width: 30px;
+    }
+
+    .profile-box{
+        display: none;
+    }
+
+    .line-sepearate-box{
+        position: absolute;
+        top: 80px;
+        background-color: #e9dedee6;
+        height: 1px;
+        width: 100%;
+    }
+}
+
+@media (min-width:1024px){
+    .header{
+        position: relative;
+        display: flex;
+        height: 80px;
+    }
+
+    .swiggy-loc-box{
+        position: absolute;
+        /* background-color: cyan; */
+        height: 80px;
+        width: 50%;
+        left: 10%;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .horizonal-line-box{
+        display: none;
+    }
+
+    .vertical-line-box{
+        display: block;
+        position: absolute;
+        left: 154px;
+        width: 1px;
+        height: 26px;
+        background-color: #e9dedee6;
+    }
+
+    .search-box{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 7px;
+        right: 8%;
+        height: 70px;
+        width: 37%;
+    }
+    .search-bar{
+        margin: 2px 0px 0px 3%;
+        border-radius: 8px;
+        border: none;
+        background-color: #F6F6F6;
+        border-color: #F6F6F6;
+        height: 54px;
+        width: 92%;
+        cursor: pointer;
+    }
+
+    .search-bar::placeholder{
+        color: #85878C;
+        font-family: Gilroy;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        overflow: hidden;
+        width: 100%;
+        overflow-wrap: break-word;
+        padding-left: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .search-logo{
+        position: absolute;
+        top: 20px;
+        right: 6%;
+        height: 30px;
+        width: 30px;
+    }
+
+    .profile-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        height: 45px;
+        width: 45px;
+    }
+
+    .profile-logo{
+        height: 90px;
+        width:90px;
+    }
+}
+
+
+@media (min-width:1440px){
+    .header{
+        position: relative;
+        display: flex;
+        height: 80px;
+    }
+
+    .search-box{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 7px;
+        right: 16%;
+        height: 70px;
+        width: 37%;
+    }
+
+    .profile-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 20px;
+        right: 170px;
+        height: 45px;
+        width: 45px;
     }
 }

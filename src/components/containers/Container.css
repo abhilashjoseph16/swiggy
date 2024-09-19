@@ -1,0 +1,64 @@
+@media (min-width:320px){
+
+}
+
+@media (min-width:961px){
+
+}
+
+@media (min-width:1024px){
+
+}
+
+@media (min-width:1440px){
+
+    .main-container{
+        position: relative;
+        height: 300px;
+        width: 100%;
+        border-radius: 0px 0px 25px 25px;
+        background: rgb(244,244,244);
+        background: -moz-linear-gradient(top, rgb(244,244,244) 0%, rgb(203,190,244) 100%);
+        background: -webkit-linear-gradient(top, rgb(244,244,244) 0%, rgb(203,190,244) 100%);
+        background: linear-gradient(to bottom, rgb(244,244,244) 0%, rgb(203,190,244) 100%);
+    }
+
+    .first-box{
+        position: relative;
+        height: 300px;
+        width: 500px;
+    }
+    .first-box-1{
+        position: absolute;
+        top: 31px;
+        padding: 0px 0px 0px 170px;
+    }
+    .first-box-2{
+        position: absolute;
+        top: 180px;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .order-food-head{
+        font-family: Gilroy, Arial, sans-serif;
+        font-size: 46px;
+        font-weight: 700;
+        letter-spacing: -0.43px;;
+        line-height: 48px;
+        -webkit-font-smoothing: antialiased;
+        color: rgba(2, 6, 12, 0.75);
+    }
+    .order-food-underline{
+        padding: 0p 0px 0px 0px;
+        height: 100%;
+        width: 130px;
+    }
+
+    /* .second-box{
+        position: relative;
+        height: 300px;
+        width: 140px;
+        background-color: aquamarine;
+    } */
+
+}
