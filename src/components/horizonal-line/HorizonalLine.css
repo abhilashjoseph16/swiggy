@@ -1,0 +1,12 @@
+.horizonal-line-main{
+    display: flex;
+    align-items: center;
+    height: 0px;
+    width: 100%;
+}
+.horizonal-line{
+    height: 1px;
+    width: 73%;
+    left: 13%;
+    background-color: #e9dedee6;
+}

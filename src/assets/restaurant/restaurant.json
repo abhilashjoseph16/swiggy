@@ -1,0 +1,22 @@
+[
+    {
+        "restaurant_id": "1",
+        "restaurant_name": "Burger King",
+        "cuisines": ["Burgers", "American"],
+        "avg_rating": 4.5,
+        "delivery_time": "20-25 mins",
+        "location": "Basavangudi",
+        "image_url": "burger_king.jpeg",
+        "offers": "₹99"
+    },
+    {
+        "restaurant_id": "2",
+        "restaurant_name": "KFC",
+        "cuisines": ["Burgers", "Fast Food","Rolls & Wraps"],
+        "avg_rating": 4.3,
+        "delivery_time": "20-25 mins",
+        "location": "Basavangudi",
+        "image_url": "kfc.jpeg",
+        "offers": "179"
+    }
+]
