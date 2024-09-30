@@ -5,7 +5,7 @@
         "cuisines": ["Burgers", "American"],
         "avg_rating": 4.5,
         "delivery_time": "20-25 mins",
-        "location": "Basavangudi",
+        "location": "Basavanagudi",
         "image_url": "restaurant/burger_king.jpeg",
         "offers": "₹99"
     },
@@ -15,7 +15,7 @@
         "cuisines": ["Burgers", "Fast Food","Rolls & Wraps"],
         "avg_rating": 4.3,
         "delivery_time": "20-25 mins",
-        "location": "Basavangudi",
+        "location": "Basavanagudi",
         "image_url": "restaurant/kfc.jpeg",
         "offers": "179"
     },
@@ -25,7 +25,7 @@
         "cuisines": ["Burgers", "Beverages","Cafe","Desserts"],
         "avg_rating": 4.5,
         "delivery_time": "20-25 mins",
-        "location": "Basavangudi",
+        "location": "Basavanagudi",
         "image_url": "restaurant/mcdonald.jpeg",
         "offers": "50"
     },
@@ -55,8 +55,28 @@
         "cuisines": ["Pizzas","Italian","Pastas","Desserts"],
         "avg_rating": 4.4,
         "delivery_time": "25-30 mins",
-        "location": "Basavangudi",
+        "location": "Basavanagudi",
         "image_url": "restaurant/dominos.jpeg",
         "offers": "125"
+    },
+    {
+        "restaurant_id": "7",
+        "restaurant_name": "Pizza Hut",
+        "cuisines": ["Pizzas"],
+        "avg_rating": 4.2,
+        "delivery_time": "25-30 mins",
+        "location": "Basavanagudi",
+        "image_url": "restaurant/pizzahut.jpeg",
+        "offers": "125"
+    },
+    {
+        "restaurant_id": "8",
+        "restaurant_name": "Home Plate by EatFit",
+        "cuisines": ["North Indian", "Home Food", "Healthy Food", "Indian", "Punjabi", "South Indian", "Rajasthani", "Maharashtrian", "Snacks", "Desserts", "Beverages"],
+        "avg_rating": 4.2,
+        "delivery_time": "30-35 mins",
+        "location": "Banashankari",
+        "image_url": "restaurant/homeplatebyeatfit.jpeg",
+        "offers": "89"
     }
 ]
