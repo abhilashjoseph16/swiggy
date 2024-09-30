@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 
 const RestaurantSliderContainer = () => {
   const [restaurants, setRestaurants] = useState([]);
-
   useEffect(() => {
     fetch("/restaurant/restaurant.json")
       .then((response) => response.json())
