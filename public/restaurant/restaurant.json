@@ -18,5 +18,45 @@
         "location": "Basavangudi",
         "image_url": "restaurant/kfc.jpeg",
         "offers": "179"
+    },
+    {
+        "restaurant_id": "3",
+        "restaurant_name": "McDonald's",
+        "cuisines": ["Burgers", "Beverages","Cafe","Desserts"],
+        "avg_rating": 4.5,
+        "delivery_time": "20-25 mins",
+        "location": "Basavangudi",
+        "image_url": "restaurant/mcdonald.jpeg",
+        "offers": "50"
+    },
+    {
+        "restaurant_id": "4",
+        "restaurant_name": "Kanti Sweets",
+        "cuisines": ["Sweets"],
+        "avg_rating": 4.3,
+        "delivery_time": "40-45 mins",
+        "location": "Alankar Plaza",
+        "image_url": "restaurant/kantisweets.jpeg",
+        "offers": "50"
+    },
+    {
+        "restaurant_id": "5",
+        "restaurant_name": "Chinese Wok",
+        "cuisines": ["Chinese","Asian","Tibetan","Desserts"],
+        "avg_rating": 4.3,
+        "delivery_time": "35-40 mins",
+        "location": "Banashankari",
+        "image_url": "restaurant/chinesewok.jpeg",
+        "offers": "169"
+    },
+    {
+        "restaurant_id": "6",
+        "restaurant_name": "Domino's Pizza",
+        "cuisines": ["Pizzas","Italian","Pastas","Desserts"],
+        "avg_rating": 4.4,
+        "delivery_time": "25-30 mins",
+        "location": "Basavangudi",
+        "image_url": "restaurant/dominos.jpeg",
+        "offers": "125"
     }
 ]
