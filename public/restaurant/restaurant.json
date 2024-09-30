@@ -6,7 +6,7 @@
         "avg_rating": 4.5,
         "delivery_time": "20-25 mins",
         "location": "Basavangudi",
-        "image_url": "burger_king.jpeg",
+        "image_url": "restaurant/burger_king.jpeg",
         "offers": "₹99"
     },
     {
@@ -16,7 +16,7 @@
         "avg_rating": 4.3,
         "delivery_time": "20-25 mins",
         "location": "Basavangudi",
-        "image_url": "kfc.jpeg",
+        "image_url": "restaurant/kfc.jpeg",
         "offers": "179"
     }
 ]
