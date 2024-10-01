@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 const RestaurantSliderContainer = () => {
   const [restaurants, setRestaurants] = useState([]);
+
   useEffect(() => {
     fetch("/restaurant/restaurant.json")
       .then((response) => response.json())
@@ -40,6 +41,9 @@ const RestaurantSliderContainer = () => {
                   alt={restaurant.restaurant_name}
                   className="restaurant-image"
                 />
+                <div className="offer-box">
+                  <p>ITEMS AT &#8377;{restaurant.offers}</p>
+                </div>
               </div>
               <div className="restaurant-info">
                 <div className="restaurant-name">

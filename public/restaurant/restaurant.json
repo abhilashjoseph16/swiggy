@@ -7,7 +7,7 @@
         "delivery_time": "20-25 mins",
         "location": "Basavanagudi",
         "image_url": "restaurant/burger_king.jpeg",
-        "offers": "₹99"
+        "offers": "99"
     },
     {
         "restaurant_id": "2",
@@ -37,7 +37,7 @@
         "delivery_time": "40-45 mins",
         "location": "Alankar Plaza",
         "image_url": "restaurant/kantisweets.jpeg",
-        "offers": "50"
+        "offers": "80"
     },
     {
         "restaurant_id": "5",
@@ -67,7 +67,7 @@
         "delivery_time": "25-30 mins",
         "location": "Basavanagudi",
         "image_url": "restaurant/pizzahut.jpeg",
-        "offers": "125"
+        "offers": "170"
     },
     {
         "restaurant_id": "8",
