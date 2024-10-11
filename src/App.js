@@ -15,6 +15,7 @@ function App() {
     <RestaurantSliderContainer/>
     <HorizonalLine/>
     <RestaurantList/>
+    <HorizonalLine/>
     </>
   );
 }
