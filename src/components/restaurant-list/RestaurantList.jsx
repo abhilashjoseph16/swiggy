@@ -185,9 +185,12 @@ const RestaurantList = () => {
             ))}
           </div>
 
-          {/* <button className="show-more-btn" onClick={showMore}>
-                    Show More
-                    </button> */}
+          <div className="restaurantlist-main-list-button-container">
+            <button className="restaurantlist-main-list-button" onClick={showMore}>
+              Show More<span><img className="restaurantlist-main-list-button-downarrow" src={DownArrow} alt="..."/></span>
+            </button>
+          </div>
+          
         </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ const RestaurantSliderContainer = () => {
         </div>
 
         <div className="restaurantslidercontainer-body">
-          {restaurants.map((restaurant) => (
+          {restaurants.slice(0, 10).map((restaurant) => (
             <div key={restaurant.restaurant_id} className="restaurant-card">
               <div className="image-box">
                 <img

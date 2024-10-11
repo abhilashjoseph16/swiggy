@@ -48,6 +48,10 @@
     width: auto;
 }
 
+.restaurantlist-filter-item:hover{
+  cursor: pointer;
+}
+
 .restaurantlist-filter-item-content{
     display: flex;
     align-items: center;
@@ -142,6 +146,10 @@
     transition: transform 0.3s ease;
 }
 
+.restaurantlist-list-box-item:hover{
+  cursor: pointer;
+}
+
 .restaurantlist-image-box {
     position: relative;
     border: 1px;
@@ -197,7 +205,6 @@
   .restaurantlist-restaurant-info{
     margin-top: 4%;
     display: flex;
-    /* background-color: red; */
     flex-direction: column;
   }
 
@@ -259,7 +266,6 @@
     align-items: center;
     text-align: left;
     width: 100%;
-    /* background-color: #9480a8; */
   }
 
   .restaurantlist-restaurant-cuisine p{
@@ -283,7 +289,6 @@
     align-items: center;
     text-align: left;
     width: 100%;
-    /* background-color: #bbaf34; */
   }
 
   .restaurantlist-restaurant-location p{
@@ -300,6 +305,40 @@
     overflow-wrap: break-word;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
+}
+
+.restaurantlist-main-list-button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.restaurantlist-main-list-button{
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1.5px solid rgba(2, 6, 12, 0.1);
+  border-radius: 12px;
+  width:280px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+  color: rgba(2, 6, 12, 0.75);
+}
+
+.restaurantlist-main-list-button-downarrow{
+  height: 11px;
+  width: 11px;
+  margin-left: 5px;
+  margin-bottom: -1px;
+}
+
+.restaurantlist-main-list-button:hover{
+  cursor: pointer;
 }
 
 @media (min-width:1440px){

@@ -48,6 +48,10 @@
     padding: 10px;
 }
 
+.dish-card:hover{
+    cursor: pointer;
+}
+
 .dish-image {
     height: 180px;
     border-radius: 10px;

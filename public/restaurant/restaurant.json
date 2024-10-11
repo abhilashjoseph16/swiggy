@@ -78,5 +78,85 @@
         "location": "Banashankari",
         "image_url": "restaurant/homeplatebyeatfit.jpeg",
         "offers": "89"
+    },
+    {
+        "restaurant_id": "9",
+        "restaurant_name": "Subway",
+        "cuisines": ["Salads", "Snacks", "Desserts", "Beverages"],
+        "avg_rating": 4.2,
+        "delivery_time": "30-35 mins",
+        "location": "Basavanagudi",
+        "image_url": "restaurant/subway.jpeg",
+        "offers": "80"
+    },
+    {
+        "restaurant_id": "10",
+        "restaurant_name": "Garmeen Kulfi",
+        "cuisines": ["Ice Cream", "Desserts"],
+        "avg_rating": 4.8,
+        "delivery_time": "35-40 mins",
+        "location": "Banashankari",
+        "image_url": "restaurant/grameenkulfi.jpeg",
+        "offers": "85"
+    },
+    {
+        "restaurant_id": "11",
+        "restaurant_name": "Meghana Foods",
+        "cuisines": ["Biryani", "Andhra", "South Indian", "Chinese", "Seafood"],
+        "avg_rating": 4.6,
+        "delivery_time": "35-40 mins",
+        "location": "Jayanagar",
+        "image_url": "restaurant/meghana.jpeg",
+        "offers": "130"
+    },
+    {
+        "restaurant_id": "12",
+        "restaurant_name": "Corner House Ice Cream",
+        "cuisines": ["Ice Cream", "Desserts"],
+        "avg_rating": 4.7,
+        "delivery_time": "25-30 mins",
+        "location": "Basavanagudi",
+        "image_url": "restaurant/cornerhouse.jpeg",
+        "offers": "55"
+    },
+    {
+        "restaurant_id": "13",
+        "restaurant_name": "WeFit - Protein Bowls, Salads & Sandwiches",
+        "cuisines": ["Healthy Food", "Salads", "Keto", "Snacks"],
+        "avg_rating": 4.6,
+        "delivery_time": "20-30 mins",
+        "location": "Azad Nagar",
+        "image_url": "restaurant/wefit.jpeg",
+        "offers": "90"
+    },
+    {
+        "restaurant_id": "14",
+        "restaurant_name": "Sharief Bhai Biryani",
+        "cuisines": ["Biryani", "Kebabs", "Mughlai", "Arabian", "South Indian", "Rolls & Wraps", "Street Food", "Fast Food", "Desserts", "Beverages"],
+        "avg_rating": 4.2,
+        "delivery_time": "55-60 mins",
+        "location": "Basaveshwaranagar",
+        "image_url": "restaurant/sharief.jpeg",
+        "offers": "100"
+    },
+    {
+        "restaurant_id": "15",
+        "restaurant_name": "MOJO Pizza - 2X Toppings",
+        "cuisines": ["Pizzas", "Italian", "Fast Food", "Desserts"],
+        "avg_rating": 4.4,
+        "delivery_time": "20-30 mins",
+        "location": "Basavanagudi",
+        "image_url": "restaurant/mojopizza.jpeg",
+        "offers": "125"
+    },
+    {
+        "restaurant_id": "16",
+        "restaurant_name": "Salad Days",
+        "cuisines": ["Salads"],
+        "avg_rating": 4.5,
+        "delivery_time": "30-35 mins",
+        "location": "Banashankari",
+        "image_url": "restaurant/saladdays.jpeg",
+        "offers": "40"
     }
 ]
