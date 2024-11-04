@@ -1,0 +1,97 @@
+.SwiggyContainer-main {
+    margin-top: 3%;
+    width: 100%;
+}
+  
+  .SwiggyContainer-header {
+    width: 73%;
+    margin-left: 7.5%;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: -0.2px;
+    color: rgba(2, 6, 12, 0.92);
+}
+  
+  .SwiggyContainer-body {
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    margin-left: 7.5%;
+}
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 18px;
+}
+  
+  .box {
+    width: 260px;
+    border: 1px solid #E5E6E6; 
+    padding: 16px; 
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+}
+  
+  .show-more {
+    width: 294px;
+    padding:16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #E5E6E6; 
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: rgba(2, 6, 12, 0.75);
+    text-align: center;
+}
+
+.SwiggyContainer-button-downarrow{
+  height: 12px;
+  width: 10px;
+  margin-left: 5px;
+  margin-bottom: -1px;
+}  
+
+@media (max-width: 1024px) {
+  .grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+      grid-template-columns: 1fr;
+  }
+  .SwiggyContainer-header {
+      width: 100%;
+      margin-left: 0;
+      font-size: 16px;
+  }
+  .SwiggyContainer-body {
+      width: 100%;
+      margin-left: 0;
+  }
+}
