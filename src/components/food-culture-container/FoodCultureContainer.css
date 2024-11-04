@@ -1,0 +1,107 @@
+.foodculturecontainer-header{
+    width: 73%;
+    margin-left: 7.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.foodculturecontainer-header-content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: -0.2px;
+    color: rgba(2, 6, 12, 0.92);
+    overflow: hidden;
+}
+
+/* .foodculturecontainer-body{
+    height: auto;
+} */
+
+.foodculturecontainer-description-box{
+    max-width: 83%;
+    margin: 0 auto;
+    border: 1px solid rgba(2, 6, 12, 0.1);
+    border-radius: 10px;
+    padding: 16px;
+    height: 173px;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.3s ease;
+}
+
+.foodculturecontainer-description-box.expanded{
+    height: auto;
+}
+
+.foodculturecontainer-description-box-content {
+    max-width: 100%;
+    margin: 0 auto;
+    border: transparent;
+    padding: 0px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.3s ease;
+}
+
+.foodculturecontainer-description-box-content.expanded{
+    height: auto;
+}
+
+.foodculturecontainer-description-box-content h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+}
+
+.foodculturecontainer-description-box-content h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+}
+
+.foodculturecontainer-description-box-content p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: rgba(2, 6, 12, 0.6);
+    margin: 0;
+}
+.expandable-button-container button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+    color: rgb(255, 82, 0);
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.expandable-button-container {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    left: 1%;
+}
+
+.expandable-button-container-arrow{
+    height: 12px;
+    width: 15px;
+    margin-left: 2px;
+    margin-bottom: -2px;
+}
